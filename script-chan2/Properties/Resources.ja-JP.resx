@@ -772,6 +772,9 @@ CS(key): {3}</value>
   <data name="MatchJoinRoomDialogView_LabelText" xml:space="preserve">
     <value>部屋に参加</value>
   </data>
+  <data name="MatchJoinRoomDialogView_PrivateRoom" xml:space="preserve">
+    <value>プライベートマルチ</value>
+  </data>
   <data name="MatchJoinRoomDialogView_RoomIdTextBoxHint" xml:space="preserve">
     <value>マルチID</value>
   </data>
@@ -961,6 +964,9 @@ CS(key): {3}</value>
   <data name="MatchView_PicksBansButtonText" xml:space="preserve">
     <value>ピック/Ban</value>
   </data>
+  <data name="MatchView_PrivateLobbyRibbon" xml:space="preserve">
+    <value>これはプライベートロビーです。トーナメントクライアントには表示されません。</value>
+  </data>
   <data name="MatchView_RefreshButtonTooltip" xml:space="preserve">
     <value>更新</value>
   </data>
@@ -1115,7 +1121,7 @@ CS(key): {3}</value>
     <value>タイマーコマンドの間隔</value>
   </data>
   <data name="SettingsView_UsePrivateBanchoCheckBox" xml:space="preserve">
-    <value>プライベートbanchoを使う</value>
+    <value>トーナメント用banchoを使う</value>
   </data>
   <data name="TeamListItemView_DeleteButtonTooltip" xml:space="preserve">
     <value>削除</value>
@@ -1173,6 +1179,18 @@ CS(key): {3}</value>
   </data>
   <data name="TournamentPointListItemView_DeleteButtonTooltip" xml:space="preserve">
     <value>削除</value>
+  </data>
+  <data name="TournamentsBracketJsonImportDialogView_BracketJsonFileTextBoxHint" xml:space="preserve">
+    <value>jsonファイル</value>
+  </data>
+  <data name="TournamentsBracketJsonImportDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="TournamentsBracketJsonImportDialogView_ImportButtonText" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="TournamentsView_BracketJsonImportButtonText" xml:space="preserve">
+    <value>bracket.jsonからインポートする</value>
   </data>
   <data name="TournamentsView_NewButtonText" xml:space="preserve">
     <value>追加</value>
