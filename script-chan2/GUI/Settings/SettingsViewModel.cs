@@ -53,7 +53,7 @@ namespace script_chan2.GUI
 
         public BindableCollection<string> Languages
         {
-            get { return new BindableCollection<string>(new string[] { "en-US", "de-DE", "zh-TW" }); }
+            get { return new BindableCollection<string>(new string[] { "en-US", "de-DE", "zh-TW", "ja-JP" }); }
         }
 
         private string lang;

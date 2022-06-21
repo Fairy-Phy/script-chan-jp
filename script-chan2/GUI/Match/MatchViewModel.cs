@@ -1166,7 +1166,7 @@ namespace script_chan2.GUI
         public void StartGame()
         {
             localLog.Information("match '{match}' start game", match.Name);
-            SendRoomMessage("!mp start 5");
+            SendRoomMessage("!mp start 10");
         }
 
         public async void AbortMatch()

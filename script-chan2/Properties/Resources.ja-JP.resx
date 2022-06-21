@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBootstrapper_BootstrapperException" xml:space="preserve">
+    <value>ブートストラッパーの例外が発生しました。詳細はログをご覧ください。</value>
+  </data>
+  <data name="AppBootstrapper_UnhandledException" xml:space="preserve">
+    <value>ハンドリングされていない例外が検出されました。詳細はログをご覧ください。</value>
+  </data>
+  <data name="ChatUserView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="ChatView_MessageTextBoxHint" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="ChatView_OpenNewButtonText" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="ChatView_OpenNewButtonTooltip" xml:space="preserve">
+    <value>新しくタブを開く (Ctrl+T)</value>
+  </data>
+  <data name="ChatView_SendButtonTooltip" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="ColorListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="ColorsView_DefaultButtonText" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="CustomCommandListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CustomCommandListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="CustomCommandsView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="CustomCommandsView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="DefaultColorValuesDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DefaultColorValuesDialogView_LabelText" xml:space="preserve">
+    <value>すべての色をリセットしますか？</value>
+  </data>
+  <data name="DefaultColorValuesDialogView_ResetButtonText" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="DeleteAllMappoolsDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteAllMappoolsDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteAllMappoolsDialogView_LabelText" xml:space="preserve">
+    <value>すべてのマッププールを削除しますか？</value>
+  </data>
+  <data name="DeleteAllMatchesDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteAllMatchesDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteAllMatchesDialogView_LabelText" xml:space="preserve">
+    <value>すべてのマッチを削除しますか？</value>
+  </data>
+  <data name="DeleteCustomCommandDialogViewModel_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+  </data>
+  <data name="DeleteCustomCommandDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteCustomCommandDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteMappoolDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteMappoolDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteMappoolDialogView_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+  </data>
+  <data name="DeleteMatchDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteMatchDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteMatchDialogView_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+    <comment>{0}: Match name</comment>
+  </data>
+  <data name="DeleteTeamDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteTeamDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteTeamDialogView_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+  </data>
+  <data name="DeleteTournamentDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteTournamentDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteTournamentDialogView_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+    <comment>{0}: Tournament name</comment>
+  </data>
+  <data name="DeleteWebhookDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DeleteWebhookDialogView_DeleteButtonText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteWebhookDialogView_LabelText" xml:space="preserve">
+    <value>{0}を削除しますか？</value>
+    <comment>{0}: Webhook name</comment>
+  </data>
+  <data name="DiscordApi_BanRecapTitle" xml:space="preserve">
+    <value>Banの要約</value>
+  </data>
+  <data name="DiscordApi_BanRecapWithRollWinnerTitle" xml:space="preserve">
+    <value>Banの要約 (ロールの勝者: {0})</value>
+  </data>
+  <data name="DiscordApi_GameRecapLostTitle" xml:space="preserve">
+    <value>{0}が__{1}__のピックを{2}点差で負けました</value>
+  </data>
+  <data name="DiscordApi_GameRecapMVPFieldName" xml:space="preserve">
+    <value>MVP</value>
+  </data>
+  <data name="DiscordApi_GameRecapMVPFieldValue" xml:space="preserve">
+    <value>:flag_{0}: **{1}**のスコア: {2:#,0}</value>
+    <comment>{0}: Player country code
+{1}: Player name
+{3}: Points</comment>
+  </data>
+  <data name="DiscordApi_GameRecapPlayerFieldName" xml:space="preserve">
+    <value>プレイヤー</value>
+  </data>
+  <data name="DiscordApi_GameRecapPlayerWinTitle" xml:space="preserve">
+    <value>{0}が__{1}__のピックを{2}点差で勝ちました</value>
+    <comment>{0}: Player name
+{1}: Mod
+{2}: Points</comment>
+  </data>
+  <data name="DiscordApi_GameRecapPointsFieldName" xml:space="preserve">
+    <value>スコア</value>
+  </data>
+  <data name="DiscordApi_GameRecapStatusFieldTeamMatchWin" xml:space="preserve">
+    <value>{0}が勝利しました :clap:</value>
+    <comment>{0}: Team name</comment>
+  </data>
+  <data name="DiscordApi_GameRecapStatusFieldTeamNextPick" xml:space="preserve">
+    <value>次のピック: {0} :loudspeaker:</value>
+    <comment>{0}: Next pick</comment>
+  </data>
+  <data name="DiscordApi_GameRecapStatusFieldTitle" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="DiscordApi_GameRecapTeamWinTitle" xml:space="preserve">
+    <value>{0}が__{1}__のピックを{2}点差で勝ちました</value>
+    <comment>{0}: Team name
+{1}: Mod
+{2}: Point difference</comment>
+  </data>
+  <data name="DiscordApi_MatchCreatedDescription" xml:space="preserve">
+    <value>IRCで```/join #mp_{0}```と入力することでマルチに入ることができます</value>
+    <comment>{0}: Room id</comment>
+  </data>
+  <data name="DiscordApi_MatchCreatedTitle" xml:space="preserve">
+    <value>マッチが作成されました！</value>
+  </data>
+  <data name="DiscordApi_PickRecapPicksFieldName" xml:space="preserve">
+    <value>ピック</value>
+  </data>
+  <data name="DiscordApi_PickRecapTitle" xml:space="preserve">
+    <value>ピックの要約</value>
+  </data>
+  <data name="DiscordApi_PickRecapWithRollWinnerTitle" xml:space="preserve">
+    <value>ピックの要約 (ロールの勝者: {0})</value>
+  </data>
+  <data name="DiscordRPC_DefaultStatus" xml:space="preserve">
+    <value>マッチの設定</value>
+  </data>
+  <data name="DiscordRPC_ReffingStatus" xml:space="preserve">
+    <value>マッチのレフェリー</value>
+  </data>
+  <data name="EditColorDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditColorDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditCustomCommandDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditCustomCommandDialogView_CommandTextBoxHint" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="EditCustomCommandDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditCustomCommandDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditCustomCommandDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="EditMappoolDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditMappoolDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditMappoolDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditMappoolDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="EditMatchDialogView_AddButtonTooltip" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="EditMatchDialogView_BOTextBoxHint" xml:space="preserve">
+    <value>BO</value>
+  </data>
+  <data name="EditMatchDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditMatchDialogView_GameModeComboBoxHint" xml:space="preserve">
+    <value>ゲームモード</value>
+  </data>
+  <data name="EditMatchDialogView_MappoolComboBoxHint" xml:space="preserve">
+    <value>マッププール</value>
+  </data>
+  <data name="EditMatchDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditMatchDialogView_PlayerNameOrIDTextBoxHint" xml:space="preserve">
+    <value>プレイヤーネームかID</value>
+  </data>
+  <data name="EditMatchDialogView_RoomSizeTextBoxHint" xml:space="preserve">
+    <value>部屋の最大収容人数</value>
+  </data>
+  <data name="EditMatchDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditMatchDialogView_TeamBlueComboBoxHint" xml:space="preserve">
+    <value>ブルーチーム</value>
+  </data>
+  <data name="EditMatchDialogView_TeamComboBoxHint" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="EditMatchDialogView_TeamModeComboBoxHint" xml:space="preserve">
+    <value>チームモード</value>
+  </data>
+  <data name="EditMatchDialogView_TeamRedComboBoxHint" xml:space="preserve">
+    <value>レッドチーム</value>
+  </data>
+  <data name="EditMatchDialogView_TeamSizeTextBoxHint" xml:space="preserve">
+    <value>チームの人数</value>
+  </data>
+  <data name="EditMatchDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="EditMatchDialogView_WinConditionComboBoxHint" xml:space="preserve">
+    <value>勝利条件</value>
+  </data>
+  <data name="EditTeamDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditTeamDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditTeamDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditTeamDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="EditTournamentDialogView_AcronymTextBoxHint" xml:space="preserve">
+    <value>略称</value>
+  </data>
+  <data name="EditTournamentDialogView_AddButtonTooltip" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="EditTournamentDialogView_AllPicksFreemodCheckBoxText" xml:space="preserve">
+    <value>すべてのピックを個別Modsにする</value>
+  </data>
+  <data name="EditTournamentDialogView_AllPicksNofailCheckBoxText" xml:space="preserve">
+    <value>すべてのピックをNoFailにする</value>
+  </data>
+  <data name="EditTournamentDialogView_BRInitialLivesTextBoxHint" xml:space="preserve">
+    <value>BRの初期値</value>
+  </data>
+  <data name="EditTournamentDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditTournamentDialogView_CommandTimerTextBoxHint" xml:space="preserve">
+    <value>コマンドタイマー</value>
+  </data>
+  <data name="EditTournamentDialogView_GameModeComboBoxHint" xml:space="preserve">
+    <value>ゲームモード</value>
+  </data>
+  <data name="EditTournamentDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditTournamentDialogView_PlacingTextBoxHint" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="EditTournamentDialogView_PointsForSecondBanTextBoxHint" xml:space="preserve">
+    <value>2回目のBan時のポイント</value>
+  </data>
+  <data name="EditTournamentDialogView_PointsForSecondBanTextBoxTooltip" xml:space="preserve">
+    <value>0 で無効</value>
+  </data>
+  <data name="EditTournamentDialogView_PointsGivenTextBoxHint" xml:space="preserve">
+    <value>与えられたポイント</value>
+  </data>
+  <data name="EditTournamentDialogView_PointsPerGameTextBlockText" xml:space="preserve">
+    <value>各ゲームに与えられたポイント</value>
+  </data>
+  <data name="EditTournamentDialogView_RoomSizeTextBoxHint" xml:space="preserve">
+    <value>部屋の最大収容人数</value>
+  </data>
+  <data name="EditTournamentDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditTournamentDialogView_TeamModeComboBoxHint" xml:space="preserve">
+    <value>チームモード</value>
+  </data>
+  <data name="EditTournamentDialogView_TeamSizeTextBoxHint" xml:space="preserve">
+    <value>チームの人数</value>
+  </data>
+  <data name="EditTournamentDialogView_TimerAfterGameTextBoxHint" xml:space="preserve">
+    <value>ゲームが開始するまでの時間</value>
+  </data>
+  <data name="EditTournamentDialogView_TimerAfterPickTextBoxHint" xml:space="preserve">
+    <value>ピックの制限時間</value>
+  </data>
+  <data name="EditTournamentDialogView_WelcomeStringTextBoxHint" xml:space="preserve">
+    <value>部屋に参加した際に送信する文章</value>
+  </data>
+  <data name="EditTournamentDialogView_WinConditionComboBoxHint" xml:space="preserve">
+    <value>勝利条件</value>
+  </data>
+  <data name="EditWebhookDialogView_AuthorIconTextBoxHint" xml:space="preserve">
+    <value>送信者のアイコン</value>
+  </data>
+  <data name="EditWebhookDialogView_AuthorIconTextBoxTooltip" xml:space="preserve">
+    <value>デフォルトで何も入力されません</value>
+  </data>
+  <data name="EditWebhookDialogView_AvatarTextBoxHint" xml:space="preserve">
+    <value>アバター</value>
+  </data>
+  <data name="EditWebhookDialogView_BanRecapCheckBoxText" xml:space="preserve">
+    <value>Banの要約</value>
+  </data>
+  <data name="EditWebhookDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditWebhookDialogView_FooterIconTextBoxHint" xml:space="preserve">
+    <value>フッターアイコン</value>
+  </data>
+  <data name="EditWebhookDialogView_FooterTextTextBoxHint" xml:space="preserve">
+    <value>フッターテキスト</value>
+  </data>
+  <data name="EditWebhookDialogView_GameRecapCheckBoxText" xml:space="preserve">
+    <value>試合の要約</value>
+  </data>
+  <data name="EditWebhookDialogView_MatchCreatedCheckBoxText" xml:space="preserve">
+    <value>マッチ作成通知</value>
+  </data>
+  <data name="EditWebhookDialogView_NameTextBoxHint" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="EditWebhookDialogView_PickRecapCheckBoxText" xml:space="preserve">
+    <value>ピックの要約</value>
+  </data>
+  <data name="EditWebhookDialogView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EditWebhookDialogView_URLTextBoxHint" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="EditWebhookDialogView_UsernameTextBoxHint" xml:space="preserve">
+    <value>ユーザーネーム</value>
+  </data>
+  <data name="EditWebhookDialogView_WinImageTextBoxHint" xml:space="preserve">
+    <value>勝利 画像/gif</value>
+  </data>
+  <data name="ExportSuccessDialogView_OkButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ExportView_ExportButtonText" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="ExportView_ExportSuccessfullDialogText" xml:space="preserve">
+    <value>エクスポートが成功しました</value>
+  </data>
+  <data name="ExportView_ImportButtonText" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="ExportView_ImportSuccessfullDialogText" xml:space="preserve">
+    <value>インポートが成功しました</value>
+  </data>
+  <data name="MainView_ChatMenuItem" xml:space="preserve">
+    <value>チャット</value>
+  </data>
+  <data name="MainView_ColorsMenuItem" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+  <data name="MainView_CommandsMenuItem" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="MainView_ExportMenuItem" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="MainView_MappoolsMenuItem" xml:space="preserve">
+    <value>マッププール</value>
+  </data>
+  <data name="MainView_MatchesMenuItem" xml:space="preserve">
+    <value>マッチ</value>
+  </data>
+  <data name="MainView_SettingsMenuItem" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="MainView_TeamsMenuItem" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="MainView_TournamentsMenuItem" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="MainView_WebhooksMenuItem" xml:space="preserve">
+    <value>ウェブフック</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_DownButtonTooltip" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_DTCheckBoxText" xml:space="preserve">
+    <value>DT</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_FreemodCheckBoxText" xml:space="preserve">
+    <value>個別Mods</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_HDCheckBoxText" xml:space="preserve">
+    <value>HD</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_HRCheckBoxText" xml:space="preserve">
+    <value>HR</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_NFCheckBoxText" xml:space="preserve">
+    <value>NF</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_PickCommandCheckBoxText" xml:space="preserve">
+    <value>ピックコマンド</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_PickCommandCheckBoxTooltip" xml:space="preserve">
+    <value>マップが選択された場合、チャットで !mp map コマンドを送信します。
+古いバージョンのマップを使いたい場合などは無効にしてください。</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_TiebreakerCheckBoxText" xml:space="preserve">
+    <value>タイブレーカー</value>
+  </data>
+  <data name="MappoolBeatmapListItemView_UpButtonTooltip" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="MappoolBeatmapsDialogView_AddButtonTooltip" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="MappoolBeatmapsDialogView_BeatmapIdTextBoxHint" xml:space="preserve">
+    <value>ビートマップID</value>
+  </data>
+  <data name="MappoolBeatmapsDialogView_BeatmapIdTextBoxTooltip" xml:space="preserve">
+    <value>複数の譜面を';'で区切って追加するか、譜面のリンクをコピーすることで自動的に追加されます</value>
+  </data>
+  <data name="MappoolBeatmapsDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="MappoolListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="MappoolListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="MappoolListItemView_EditMapsButtonTooltip" xml:space="preserve">
+    <value>マップの編集</value>
+  </data>
+  <data name="MappoolsView_DeleteAllButtonText" xml:space="preserve">
+    <value>すべて削除</value>
+  </data>
+  <data name="MappoolsView_ImportFromWikiButtonText" xml:space="preserve">
+    <value>wikiからインポート</value>
+  </data>
+  <data name="MappoolsView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="MappoolsView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="MappoolWikiImportDialogViewModel_StatusGettingWikiPage" xml:space="preserve">
+    <value>wikiのページを取得</value>
+  </data>
+  <data name="MappoolWikiImportDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MappoolWikiImportDialogView_ImportButtonText" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="MappoolWikiImportDialogView_WikiUrlTextBoxHint" xml:space="preserve">
+    <value>Wiki URL</value>
+  </data>
+  <data name="MatchAbortMapDialogView_AbortButtonText" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="MatchAbortMapDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MatchAbortMapDialogView_LabelText" xml:space="preserve">
+    <value>譜面を中止？</value>
+  </data>
+  <data name="MatchBanchoEventViewModel_AllPlayersFinishedText" xml:space="preserve">
+    <value>すべてのプレイヤーが終了しました</value>
+  </data>
+  <data name="MatchBanchoEventViewModel_AllPlayersReadyText" xml:space="preserve">
+    <value>すべてのプレイヤーの準備が整いました</value>
+  </data>
+  <data name="MatchBanchoEventViewModel_RollText" xml:space="preserve">
+    <value>{0}のロール: {1}</value>
+    <comment>{0}: Player name
+{1}: Roll</comment>
+  </data>
+  <data name="MatchBanchoEventViewModel_TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemBannedByText" xml:space="preserve">
+    <value>{0}のBan</value>
+    <comment>{0}: Player or team name</comment>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemBanText" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemPickedByText" xml:space="preserve">
+    <value>{0}のピック</value>
+    <comment>{0}: Player or team name</comment>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemPickText" xml:space="preserve">
+    <value>ピック</value>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemUnbanText" xml:space="preserve">
+    <value>Ban取り消し</value>
+  </data>
+  <data name="MatchBeatmapViewModel_ContextItemUnpickText" xml:space="preserve">
+    <value>ピック取り消し</value>
+  </data>
+  <data name="MatchBeatmapViewModel_LabelText" xml:space="preserve">
+    <value>{0} - {1} [{2}] ({3}) BPM{4} AR{5} CS(key){6}</value>
+    <comment>{0}: Artist
+{1}: Title
+{2}: Version
+{3}: Creator
+{4}: BPM
+{5}: AR
+{6}: CS</comment>
+  </data>
+  <data name="MatchBeatmapViewModel_LabelTooltip" xml:space="preserve">
+    <value>マッパー: {0}
+BPM: {1}
+AR: {2}
+CS(key): {3}</value>
+    <comment>{0}: Mapper
+{1}: BPM
+{2}: AR
+{3}: CS</comment>
+  </data>
+  <data name="MatchBRTeamListItemView_RemoveTeamButtonTooltip" xml:space="preserve">
+    <value>チーム削除</value>
+  </data>
+  <data name="MatchBRTeamView_DecreaseButtonTooltip" xml:space="preserve">
+    <value>減少</value>
+  </data>
+  <data name="MatchBRTeamView_IncreaseButtonTooltip" xml:space="preserve">
+    <value>増加</value>
+  </data>
+  <data name="MatchBRTeamView_KickButtonTooltip" xml:space="preserve">
+    <value>キック</value>
+  </data>
+  <data name="MatchCloseRoomDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MatchCloseRoomDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="MatchCloseRoomDialogView_LabelText" xml:space="preserve">
+    <value>部屋を閉じますか？</value>
+  </data>
+  <data name="MatchesView_DeleteAllButtonText" xml:space="preserve">
+    <value>すべて削除</value>
+  </data>
+  <data name="MatchesView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="MatchesView_SearchTextBoxHint" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="MatchesView_StatusComboBoxHint" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="MatchesView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="MatchesView_WikiImportButtonText" xml:space="preserve">
+    <value>wikiからインポート</value>
+  </data>
+  <data name="MatchesWikiImportDialogViewModel_StatusGettingWikiPage" xml:space="preserve">
+    <value>wikiのページを取得</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_BOTextBoxHint" xml:space="preserve">
+    <value>BO</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_ImportButtonText" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_MappoolComboBoxHint" xml:space="preserve">
+    <value>マッププール</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_NoTeamsWarning" xml:space="preserve">
+    <value>このトーナメントにはチームが設定されていません！</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="MatchesWikiImportDialogView_WikiUrlTextBoxHint" xml:space="preserve">
+    <value>Wiki URL</value>
+  </data>
+  <data name="MatchJoinRoomDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MatchJoinRoomDialogView_JoinButtonText" xml:space="preserve">
+    <value>参加</value>
+  </data>
+  <data name="MatchJoinRoomDialogView_LabelText" xml:space="preserve">
+    <value>部屋に参加</value>
+  </data>
+  <data name="MatchJoinRoomDialogView_RoomIdTextBoxHint" xml:space="preserve">
+    <value>マルチID</value>
+  </data>
+  <data name="MatchListItemViewModel_DateTimeFormat" xml:space="preserve">
+    <value>MM-dd HH:mm</value>
+  </data>
+  <data name="MatchListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="MatchListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="MatchListItemView_OpenButtonTooltip" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="MatchPasswordDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MatchPasswordDialogView_LabelText" xml:space="preserve">
+    <value>パスワードを編集</value>
+  </data>
+  <data name="MatchPasswordDialogView_PasswordTextBoxHint" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="MatchPasswordDialogView_SetButtonText" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="MatchPickOverviewDialogView_BansLabelText" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="MatchPickOverviewDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="MatchPickOverviewDialogView_MappoolLabelText" xml:space="preserve">
+    <value>マッププール</value>
+  </data>
+  <data name="MatchPickOverviewDialogView_PicksLabelText" xml:space="preserve">
+    <value>ピック</value>
+  </data>
+  <data name="MatchPlayerListItemView_RemovePlayerButtonTooltip" xml:space="preserve">
+    <value>プレイヤーを削除</value>
+  </data>
+  <data name="MatchPlayerView_DecreaseButtonTooltip" xml:space="preserve">
+    <value>減少</value>
+  </data>
+  <data name="MatchPlayerView_IncreaseButtonTooltip" xml:space="preserve">
+    <value>増加</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_GameModeComboBoxHint" xml:space="preserve">
+    <value>ゲームモード</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_LabelText" xml:space="preserve">
+    <value>部屋の設定を編集</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_RoomSizeTextBoxHint" xml:space="preserve">
+    <value>部屋の最大収容人数</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_ScoreModeComboBoxHint" xml:space="preserve">
+    <value>スコアモード</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_SetButtonText" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="MatchRoomOptionsDialogView_TeamSizeTextBoxHint" xml:space="preserve">
+    <value>チームの人数</value>
+  </data>
+  <data name="MatchRoomSlotViewModel_ContextItemKickText" xml:space="preserve">
+    <value>キック</value>
+  </data>
+  <data name="MatchRoomSlotViewModel_ContextItemSetHostText" xml:space="preserve">
+    <value>ホスト権限を付与</value>
+  </data>
+  <data name="MatchTeamDialogPlayerView_SwitchPlayerButtonText" xml:space="preserve">
+    <value>プレイヤーをプライベートサーバーに移動</value>
+  </data>
+  <data name="MatchTeamDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="MatchTeamView_DecreaseButtonTooltip" xml:space="preserve">
+    <value>減少</value>
+  </data>
+  <data name="MatchTeamView_IncreaseButtonTooltip" xml:space="preserve">
+    <value>増加</value>
+  </data>
+  <data name="MatchViewModel_NextPlayerPickMessage" xml:space="preserve">
+    <value>次にピックする人: {0}</value>
+    <comment>{0}: Player name</comment>
+  </data>
+  <data name="MatchViewModel_NextTeamPickMessage" xml:space="preserve">
+    <value>次にピックするチーム: {0}</value>
+    <comment>{0}: Team name</comment>
+  </data>
+  <data name="MatchViewModel_PlayerPointsMessage" xml:space="preserve">
+    <value>{0}位 {1}: {2:#,0}</value>
+    <comment>{0}: Player ranking
+{1}: Player name
+{2}: Points</comment>
+  </data>
+  <data name="MatchViewModel_RoomRankingMessage" xml:space="preserve">
+    <value>部屋の順位</value>
+  </data>
+  <data name="MatchViewModel_SecondBanMessage" xml:space="preserve">
+    <value>{0}はもう一つBanできます</value>
+    <comment>{0}: Team name</comment>
+  </data>
+  <data name="MatchViewModel_TeamRoomSetupMessage" xml:space="preserve">
+    <value>{0}はレッドチームです、1～{1}のスロットに入ってください --- {2}はブルーチームです、{3}～{4}のスロットに入ってください</value>
+    <comment>{0}: Team red name
+{1}: Red team last slot number
+{2}: Team blue name
+{3}: Blue team first slot number
+{4}: Blue team last slot number</comment>
+  </data>
+  <data name="MatchViewModel_TiebreakerMessage" xml:space="preserve">
+    <value>同点になりましたのでタイブレーカーを開始します</value>
+  </data>
+  <data name="MatchViewModel_WinMessage" xml:space="preserve">
+    <value>**{0}が勝利しました**</value>
+    <comment>{0}: Team or player name</comment>
+  </data>
+  <data name="MatchView_AbortMapButtonText" xml:space="preserve">
+    <value>譜面を中止</value>
+  </data>
+  <data name="MatchView_AllPicksFreemodCheckBoxText" xml:space="preserve">
+    <value>すべてのピックを個別Modsにする</value>
+  </data>
+  <data name="MatchView_AllPicksNofailCheckBoxText" xml:space="preserve">
+    <value>すべてのピックをNoFailにする</value>
+  </data>
+  <data name="MatchView_BanRecapButtonText" xml:space="preserve">
+    <value>Banの要約</value>
+  </data>
+  <data name="MatchView_BOTextBoxHint" xml:space="preserve">
+    <value>BO</value>
+  </data>
+  <data name="MatchView_CloseRoomButtonText" xml:space="preserve">
+    <value>部屋を閉じる</value>
+  </data>
+  <data name="MatchView_CreatePrivateRoomButtonText" xml:space="preserve">
+    <value>(プライベートサーバー専用)部屋を作成</value>
+  </data>
+  <data name="MatchView_CreateRoomButtonText" xml:space="preserve">
+    <value>部屋を作成</value>
+  </data>
+  <data name="MatchView_DisableChatMatchStatusCheckBoxText" xml:space="preserve">
+    <value>マッチ情報のチャットを無効</value>
+  </data>
+  <data name="MatchView_DisableChatMatchStatusCheckBoxTooltip" xml:space="preserve">
+    <value>譜面終了時の自動メッセージ送信を無効にする(マッチの順位/次のピック)</value>
+  </data>
+  <data name="MatchView_FirstPickComboBoxHint" xml:space="preserve">
+    <value>はじめのピック</value>
+  </data>
+  <data name="MatchView_GameModeComboBoxHint" xml:space="preserve">
+    <value>ゲームモード</value>
+  </data>
+  <data name="MatchView_GameRecapButtonText" xml:space="preserve">
+    <value>試合の要約</value>
+  </data>
+  <data name="MatchView_InvitePlayersButtonText" xml:space="preserve">
+    <value>プレイヤーを招待する</value>
+  </data>
+  <data name="MatchView_JoinRoomButtonText" xml:space="preserve">
+    <value>すでに存在する部屋に参加</value>
+  </data>
+  <data name="MatchView_KickLastTeamButtonText" xml:space="preserve">
+    <value>最後のチームをキックする</value>
+  </data>
+  <data name="MatchView_MappoolComboBoxHint" xml:space="preserve">
+    <value>マッププール</value>
+  </data>
+  <data name="MatchView_MessageTextBoxHint" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="MatchView_PickNextMapButtonText" xml:space="preserve">
+    <value>次の譜面のピック</value>
+  </data>
+  <data name="MatchView_PickRandomMapButtonText" xml:space="preserve">
+    <value>ランダムで譜面のピック</value>
+  </data>
+  <data name="MatchView_PickRecapButtonText" xml:space="preserve">
+    <value>ピックの要約</value>
+  </data>
+  <data name="MatchView_PicksBansButtonText" xml:space="preserve">
+    <value>ピック/Ban</value>
+  </data>
+  <data name="MatchView_RefreshButtonTooltip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="MatchView_RollWinnerComboBoxHint" xml:space="preserve">
+    <value>ロールの勝者</value>
+  </data>
+  <data name="MatchView_RoomSizeTextBoxHint" xml:space="preserve">
+    <value>部屋の最大収容人数</value>
+  </data>
+  <data name="MatchView_SecondBanTextBoxHint" xml:space="preserve">
+    <value>2回目のBanの点数</value>
+  </data>
+  <data name="MatchView_SendButtonText" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="MatchView_SetPasswordButtonText" xml:space="preserve">
+    <value>パスワードを編集</value>
+  </data>
+  <data name="MatchView_SetRoomOptionsButtonText" xml:space="preserve">
+    <value>部屋の設定を編集</value>
+  </data>
+  <data name="MatchView_SettingsButtonText" xml:space="preserve">
+    <value>部屋の状態を更新</value>
+  </data>
+  <data name="MatchView_StartGameButtonText" xml:space="preserve">
+    <value>ゲームスタート (10秒)</value>
+  </data>
+  <data name="MatchView_SwitchPlayersBackButtonText" xml:space="preserve">
+    <value>プレイヤーをメインサーバーに戻す</value>
+  </data>
+  <data name="MatchView_SwitchPlayersButtonText" xml:space="preserve">
+    <value>プレイヤーをプライベートサーバーに移動</value>
+  </data>
+  <data name="MatchView_TeamSizeTextBoxHint" xml:space="preserve">
+    <value>チームの人数</value>
+  </data>
+  <data name="MatchView_TimerAfterGameTextBoxHint" xml:space="preserve">
+    <value>ゲームが開始するまでの時間</value>
+  </data>
+  <data name="MatchView_TimerAfterPickTextBoxHint" xml:space="preserve">
+    <value>ピックの制限時間</value>
+  </data>
+  <data name="MatchView_TimerButtonText" xml:space="preserve">
+    <value>タイマー</value>
+  </data>
+  <data name="MatchView_TimerCommandTextBoxHint" xml:space="preserve">
+    <value>タイマーコマンド</value>
+  </data>
+  <data name="MatchView_ViewerModeCheckBoxText" xml:space="preserve">
+    <value>視聴モード</value>
+  </data>
+  <data name="MatchView_ViewerModeCheckBoxTooltip" xml:space="preserve">
+    <value>ウェブフックとチャットの自動送信を無効にする</value>
+  </data>
+  <data name="MatchView_WarmupModeCheckBoxText" xml:space="preserve">
+    <value>ウォームアップモード</value>
+  </data>
+  <data name="MatchView_WelcomeStringButtonText" xml:space="preserve">
+    <value>部屋に参加する際の文章を送信</value>
+  </data>
+  <data name="MatchView_WrongTeamWarningText" xml:space="preserve">
+    <value>プレイヤーは間違ったチームに入っています！</value>
+  </data>
+  <data name="NewChatDialogView_CancelButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="NewChatDialogView_OpenButtonText" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="NewChatDialogView_UserTextBoxHint" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="OsuApi_TimeoutErrorHeader" xml:space="preserve">
+    <value>APIエラー</value>
+  </data>
+  <data name="OsuApi_TimeoutErrorText" xml:space="preserve">
+    <value>APIとwebが落ちています</value>
+  </data>
+  <data name="SettingsView_ApiKeyTextBoxHint" xml:space="preserve">
+    <value>APIキー</value>
+  </data>
+  <data name="SettingsView_BanchoConnectedTooltip" xml:space="preserve">
+    <value>Banchoに接続しました</value>
+  </data>
+  <data name="SettingsView_BanchoConnectingTooltip" xml:space="preserve">
+    <value>Banchoに接続中</value>
+  </data>
+  <data name="SettingsView_BanchoDisconnectedTooltip" xml:space="preserve">
+    <value>Banchoから切断しました</value>
+  </data>
+  <data name="SettingsView_DiscardButtonText" xml:space="preserve">
+    <value>切り捨てる</value>
+  </data>
+  <data name="SettingsView_EnableNotificationsCheckBoxText" xml:space="preserve">
+    <value>通知を有効</value>
+  </data>
+  <data name="SettingsView_EnableNotificationsCheckBoxTooltip" xml:space="preserve">
+    <value>全プレイヤーの準備ができた場合か譜面が終了した際に音を鳴らす</value>
+  </data>
+  <data name="SettingsView_GetApiKeyButtonText" xml:space="preserve">
+    <value>APIキーを取得</value>
+  </data>
+  <data name="SettingsView_GetIrcPasswordButtonText" xml:space="preserve">
+    <value>IRCパスワードを取得</value>
+  </data>
+  <data name="SettingsView_IrcPasswordTextBoxHint" xml:space="preserve">
+    <value>IRCパスワード</value>
+  </data>
+  <data name="SettingsView_IrcTimeoutTextBoxHint" xml:space="preserve">
+    <value>IRCタイムアウト</value>
+  </data>
+  <data name="SettingsView_IrcUsernameTextBoxHint" xml:space="preserve">
+    <value>IRCユーザーネーム</value>
+  </data>
+  <data name="SettingsView_LanguagesComboBoxHint" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="SettingsView_NotificationSoundFileTextBoxHint" xml:space="preserve">
+    <value>通知音ファイル</value>
+  </data>
+  <data name="SettingsView_NotificationSoundFileTextBoxTooltip" xml:space="preserve">
+    <value>空の場合デフォルトが使用されます</value>
+  </data>
+  <data name="SettingsView_OpenConfigFileButtonText" xml:space="preserve">
+    <value>コンフィグファイルを開く</value>
+  </data>
+  <data name="SettingsView_PrivateBanchoConnectedTooltip" xml:space="preserve">
+    <value>プライベートBanchoに接続しました</value>
+  </data>
+  <data name="SettingsView_PrivateBanchoConnectingTooltip" xml:space="preserve">
+    <value>プライベートBanchoに接続中</value>
+  </data>
+  <data name="SettingsView_PrivateBanchoDisconnectedTooltip" xml:space="preserve">
+    <value>プライベートBanchoから切断しました</value>
+  </data>
+  <data name="SettingsView_SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SettingsView_SelectNotificationSoundFileButtonText" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="SettingsView_TestApiKeyButtonText" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="SettingsView_TimerAfterGameDurationTextBoxHint" xml:space="preserve">
+    <value>ゲームが開始するまでの時間の間隔</value>
+  </data>
+  <data name="SettingsView_TimerAfterPickDurationTextBoxHint" xml:space="preserve">
+    <value>ピックの制限時間の間隔</value>
+  </data>
+  <data name="SettingsView_TimerCommandDurationTextBoxHint" xml:space="preserve">
+    <value>タイマーコマンドの間隔</value>
+  </data>
+  <data name="SettingsView_UsePrivateBanchoCheckBox" xml:space="preserve">
+    <value>プライベートbanchoを使う</value>
+  </data>
+  <data name="TeamListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="TeamListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="TeamListItemView_EditPlayersButtonTooltip" xml:space="preserve">
+    <value>プレイヤーを編集</value>
+  </data>
+  <data name="TeamPlayerListItemView_RemovePlayerButtonTooltip" xml:space="preserve">
+    <value>プレイヤーを削除</value>
+  </data>
+  <data name="TeamPlayersDialogView_AddButtonTooltip" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="TeamPlayersDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="TeamPlayersDialogView_PlayerNameOrIdTextBoxHint" xml:space="preserve">
+    <value>プレイヤーネームかID</value>
+  </data>
+  <data name="TeamsView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="TeamsView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="TeamsView_WikiImportButtonText" xml:space="preserve">
+    <value>wikiからインポート</value>
+  </data>
+  <data name="TeamWikiImportDialogViewModel_StatusGettingWikiPage" xml:space="preserve">
+    <value>wikiのページから取得</value>
+  </data>
+  <data name="TeamWikiImportDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="TeamWikiImportDialogView_ImportButtonText" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="TeamWikiImportDialogView_TournamentComboBoxHint" xml:space="preserve">
+    <value>トーナメント</value>
+  </data>
+  <data name="TeamWikiImportDialogView_WikiUrlTextBoxHint" xml:space="preserve">
+    <value>Wiki URL</value>
+  </data>
+  <data name="TournamentListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="TournamentListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="TournamentListItemView_WebhooksButtonTooltip" xml:space="preserve">
+    <value>ウェブフック</value>
+  </data>
+  <data name="TournamentPointListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="TournamentsView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="TournamentWebhooksDialogView_CloseButtonText" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="TournamentWebhooksDialogView_LabelText" xml:space="preserve">
+    <value>{0}のウェブフック</value>
+    <comment>{0}: Tournament name</comment>
+  </data>
+  <data name="TournamentWebhooksDialogView_WebhookChannelWarning" xml:space="preserve">
+    <value>複数のWebhookが同じチャンネルに同じメッセージを送信しています</value>
+  </data>
+  <data name="ValidationRule_FieldRequired" xml:space="preserve">
+    <value>フィールドは必須です</value>
+  </data>
+  <data name="ValidationRule_WebhookNameDuplicate" xml:space="preserve">
+    <value>この名前はすでに使われています</value>
+  </data>
+  <data name="WebhookListItemView_DeleteButtonTooltip" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="WebhookListItemView_EditButtonTooltip" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="WebhooksView_NewButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Window_CloseButtonTooltip" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Window_MaximizeButtonTooltip" xml:space="preserve">
+    <value>最大数</value>
+  </data>
+  <data name="Window_MinimizeButtonTooltip" xml:space="preserve">
+    <value>最小数</value>
+  </data>
+  <data name="Window_RestoreButtonTooltip" xml:space="preserve">
+    <value>復元</value>
+  </data>
+</root>

@@ -8,3 +8,4 @@
 .\script-chan2\bin\Debug\en-US
 .\script-chan2\bin\Debug\de-DE
 .\script-chan2\bin\Debug\zh-TW
+.\script-chan2\bin\Debug\ja-JP
