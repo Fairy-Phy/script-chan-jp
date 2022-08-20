@@ -1,6 +1,6 @@
 # 補足 / Supplement
 
-## 日本語版のダウンロードはこちらです: [Windows]()
+## 日本語版のダウンロードはこちらです: [Windows](https://github.com/Fairy-Phy/script-chan-jp/releases/download/v2.3.2/script_chan2.3.2_ja.zip)
 
 ## Japanese:
 
